@@ -16,4 +16,4 @@ Feature: Verify the Amazon Login screen
     Examples:
       | userName       | passWord | errorMessage                                     |
       | abcd           | abcd     | The username and password could not be verified. |
-      | 1234@dsflk.com |          | Please enter a usernames and                     |
+      | 1234@dsflk.com |          | Please enter a username and password.            |
