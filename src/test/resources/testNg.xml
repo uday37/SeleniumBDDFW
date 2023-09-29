@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon parallel Tests" verbose="2" thread-count="5" parallel="classes">
+    <test name="Login page test" >
+        <classes>
+            <class name="org.amazon.runner.TestRunner" />
+        </classes>
+    </test>
+
+</suite>
+
